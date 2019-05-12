@@ -1,12 +1,14 @@
 # README
 
-
-Testing out a few things for possible use in my Flatiron Mod5 project
+Using a todo app to test what will work in my Flatiron Mod5 project
 
 - Steps:
 
 1. Followed tutorial to connect rails db with GCP bucket (https://medium.com/@pjbelo/setting-up-rails-5-2-active-storage-using-google-cloud-storage-and-heroku-23df91e830f8)
-2. Convert database from sqlite3 to postgres (https://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/)
+2. Converted database from sqlite3 to postgres (https://www.daveferrara1.com/ruby-in-rails-switch-from-sqlite3-to-postgres/)
+3. TODO: Configure app to use CloudSQL for PostgreSQL (https://cloud.google.com/ruby/rails/using-cloudsql-postgres)
+4. TODO: Re-route to retrieve and view images from the GCP storage bucket
+5. TODO: Re-build with React front end
 
 ---
 
@@ -32,4 +34,5 @@ Things you may want to cover:
 - Deployment instructions
 
 - ...
+
 # mod-5-spiking
