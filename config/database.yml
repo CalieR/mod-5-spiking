@@ -52,7 +52,15 @@ test:
   password:
   timeout: 5000
 
-  
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: niFjFJO3ED3Fp2fp
+  database: "postgres"
+  host: "/cloudsql/todo-spike:europe-west1:todo-spike"
 #BEFORE:
 
 # SQLite version 3.x
